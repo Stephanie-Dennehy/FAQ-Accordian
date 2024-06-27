@@ -48,66 +48,74 @@ body {
     z-index: 1;
 }
 
-.work-sans-body {
-  font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 1rem;
-}
-
-.work-sans-title {
-    font-family: "Work Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 1.125rem;
-    color: var(--dark-purple)
-}
-
-.question:hover {
-    color: var(--bright-purple);
-    cursor: pointer;
-}
-
-.work-sans-display {
+.header {
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
     color: var(--dark-purple);
     font-size: 3rem;
-  }
-
-.header {
     display:flex;
     justify-content: flex-start;
     align-items: center;
 }
 
-.question {
+.faq-text {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  color: var(--grayish-purple);
+  display: none;
+}
+
+.faq {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-title {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.125rem;
+    color: var(--dark-purple);
     padding: 24px 0;
     border-bottom: 1px solid var(--light-pink);
     display: flex;
     justify-content: space-between;
 }
 
+.faq-title:hover {
+    color: var(--bright-purple);
+    cursor: pointer;
+}
+
+.faq-toggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    background-color: transparent;
+    border: none;
+}
+
+.iconMinus {
+    display: none;
+    color: var(--bright-purple)
+}
+
+.faq.active .faq-toggle .iconMinus {
+    display: block;
+}
+
 .last {
     border-bottom: none;
 }
 
-.answer {
-    color: var(--grayish-purple);
-}
-
-.hidden {
-    display: none;
-}
-
-.attribution {
-    display: flex;
-    justify-content: center;
-    padding: 1rem 0;
-    font-size: .75rem;
-   
+.faq-text.active {
+    display: block;
 }
