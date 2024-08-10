@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/Stephanie-Dennehy/FAQ-Accordian
-- Live Site URL: https://stephanie-dennehy.github.io/FAQ-Accordian/
+- Solution URL: https://github.com/Stephanie-Dennehy/FAQ-Accordion
+- Live Site URL: https://stephanie-dennehy.github.io/FAQ-Accordion/
 
 ## My process
 
