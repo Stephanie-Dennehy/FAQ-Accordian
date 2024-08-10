@@ -124,11 +124,16 @@ body {
 @media screen and (max-width: 390px) { 
     .background {
         background-image: url(/assets/images/background-pattern-mobile.svg);
-        max-width: 100%;
+        width: 100%;
+        object-fit: cover;
+        overflow: hidden;
     }
+
     .card { 
-        max-width: 340px;
+        width: 100%;
+        max-width: 280px;
         left: 24px;
+        overflow-x: hidden;
     }
 
     .icon {
