@@ -122,6 +122,9 @@ body {
 }
 
 @media screen and (max-width: 390px) { 
+    .background {
+        background-image: url(/assets/images/background-pattern-mobile.svg);
+    }
     .card { 
         max-width: 340px;
         left: 24px;
